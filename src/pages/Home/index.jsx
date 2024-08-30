@@ -8,7 +8,7 @@ function Contact() {
         <img src='/Rectangle 148.png' alt='Vector Logo' />
       </div>
       <div className='side-con'>
-        <h1>Get in touch</h1>
+        <h1 className='heading-1'>Get in touch</h1>
       </div>
     </div>
   );

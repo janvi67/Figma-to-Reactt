@@ -1,28 +1,35 @@
-/* home.css */
+
 .container12 {
     width: 1674px;
     height: 707px;
     border-radius: 42px 42px 0px 0px;
     background: #1E1E1E;
-    display: flex; /* Use flex to align items horizontally */
-    align-items: center; /* Center items vertically */
-    padding: 20px; /* Add padding if needed */
+    display: flex; 
+    align-items: center;
+    padding: 20px;
 }
 
 .img-container {
     width: 704px;
     height: 622px;
     border-radius: 24px;
-    position: relative; /* Position relative to align with flex items */
-    overflow: hidden; /* Ensure the image does not overflow */
+    position: relative;
+    overflow: hidden; 
 }
+.heading-1{
+    font-family: Poppins;
+font-size: 53px;
+font-weight: 700;
+line-height: 79.98px;
+text-align: left;
 
+}
 
 
 .side-con {
     width: 583px;
     height: 161px;
-    margin-left: 20px; /* Add spacing between image and side-con */
+    margin-left: 20px; 
     color: white;
    
 }

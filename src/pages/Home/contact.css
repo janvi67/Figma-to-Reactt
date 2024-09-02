@@ -1,20 +1,130 @@
-
+/* Container12 Styles */
 .container12 {
+    background: #1E1E1E;
     width: 1674px;
     height: 707px;
+    position: relative; /* Important for positioning child elements */
     border-radius: 42px 42px 0px 0px;
-    background: #1E1E1E;
-    display: flex; 
-    align-items: center;
-    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+  
 }
-
+/* Image Container Styles */
 .img-container {
     width: 704px;
     height: 622px;
-    border-radius: 24px;
     position: relative;
-    overflow: hidden; 
+    overflow: hidden; /* Ensure content does not overflow */
+    padding-top:55px;
+    padding-left: 129px; /* Added padding for spacing */
+
+}
+
+.img-container img {
+    width: 100%; /* Ensure image covers the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.img-inner {
+    width: 684px;
+    height: 159px;
+    position: absolute;
+    bottom: 10px; /* 10px from the bottom */
+    left: 140px; /* 10px from the left */
+    background: #FAF7ED;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+   
+}
+
+/* Inner Box Styles */
+.inner-box {
+    width: 684px;
+height: 111px;
+margin-bottom: 20px;
+gap: 0px;
+border: 0px 1px 0px 0px;
+opacity: 0px;
+
+    
+}
+
+.part-div {
+    width: 684px;
+    height: 84px;
+   margin-top:20px;
+    margin-left: 15px;
+    gap: 0px;
+    border: 0px 1px 0px 0px;
+    opacity: 0px;
+    
+    
+ 
+}
+
+/* Box Title and Content */
+.box-title {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30.01px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.frame1 {
+    width: 655px;
+    height: 84px;
+  
+    display: flex;
+    justify-content: space-between;
+    background: #FAF7ED;
+}
+
+.framediv1 {
+    width: 227px;
+    height: 84px;
+    background: #FAF7ED;
+    border-right: 1px solid #00000033;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   margin: 0px;
+   padding: 0%;
+}
+.framediv1:last-child {
+    border-right: none; 
+}
+
+.box-con {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 13px 0;
+    text-align: center;
+    color: #000000;
+}
+
+.box-con-des {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #000000;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Side Container Styles */
+.side-con {
+    width: 583px;
+    margin-left: 20px;
+    color: white;
+    margin-top:73px;
 }
 .heading-1{
     font-family: Poppins;
@@ -24,14 +134,92 @@ line-height: 79.98px;
 text-align: left;
 
 }
-
-
-.side-con {
+.con-des{
     width: 583px;
-    height: 161px;
-    margin-left: 20px; 
-    color: white;
-   
+height: 61px;
+gap: 0px;
+opacity: 0.95px;
+
+}
+.contcat-description {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30.01px;
+    text-align: left;
+    color: #FAF7ED;
+  
 }
 
+/* Contact Form Styles */
+.contact-form {
+    width: 706px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   margin-top:20px;
+ 
+}
 
+.contact-form .form-row {
+    display: flex;
+    gap: 60px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+
+    
+}
+
+.input,
+.enquiry {
+    gap: 10px;
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 80px;
+    border: 1px solid #EBEBEB;
+    background: #FFFFFF;
+}
+.label-enquiry{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.input {
+    width: 338px;
+    height: 35px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 80px;
+    border: 1px ;
+    opacity: 0px;
+    
+    margin-top: 10px;
+}
+
+.enquiry {
+    height: 106px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.contact-btn {
+    width: 215px;
+    height: 55px;
+    border-radius: 90px;
+    background: #D0EA98;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: #1E1E1E;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}

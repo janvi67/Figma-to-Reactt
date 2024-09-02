@@ -3,6 +3,7 @@ import './header.css';
 
 function Header() {
   return (
+    <div className='maindiv'>
     <div className='container'>
       <div className='left-section'>
         <img src='/Vector.png' alt='Vector Logo' />
@@ -16,6 +17,7 @@ function Header() {
         <a href='#'>Contact Us</a>
         <button>Book Now</button>
       </div>
+    </div>
     </div>
   );
 }
